@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/media/mamun/Academic Study metarials/2.2-Online class/Numerical Methode/test.cpp","tests":[{"id":1650140556221,"input":"4\n5 12\n6 13\n9 14\n11 16\n10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/media/mamun/Academic Study metarials/2.2-Online class/Numerical Methode/test.cpp","group":"local","local":true}
