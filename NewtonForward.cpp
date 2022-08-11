@@ -27,7 +27,7 @@ void print(int n){
     
 void solve(double p, int n,double x[]){
      sum = y[0][0];
-     u = (p - x[0]) / (x[1] - x[0]);
+     u = (p - x[0]) / abs(x[1] - x[0]);
      for(int i = 1; i < n; i++)
      {
          sum += (u_cal(i,u)*y[0][i])/fact(i);

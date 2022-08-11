@@ -5,6 +5,7 @@ class LagrangeInterpolation
 {
 private:
     
+    
 public:
    double solve(int n, double value){
        double ans = 0;

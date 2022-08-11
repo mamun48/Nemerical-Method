@@ -2,14 +2,20 @@
 using namespace std;
 class Trapizoidal
 {
-private:
-    /* data */
+private:    
+   double a,b,n;
 public:
-   double solve(double a,double b,double n){
+    Trapizoidal(double a, double b, double n){
+        this->a = a;
+        this->b = b;
+        this->n = n;
+
+    }
+   double solve(){
         double ans = 0;
         double h = (b-a)/n;
-       ans = function(a) + function(b);
-       for(int i = 1; i< n; i++){
+        ans = function(a) + function(b);
+       for(int i = 1; i < n; i++){
            ans += 2*function(a + i*h);
        }
        return ans*(h/2);
@@ -29,6 +35,6 @@ int main()
     cin>>a>>b;
     double n;
     cin>>n;
-    Trapizoidal tr;
-    cout<<tr.solve(a,b,n);
+    Trapizoidal tr(a,b,n);
+    cout<<tr.solve();
 }
